@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Fresh Tomatoes!</title>
+        <meta name="viewport" content="width = device-width, initial-scale = 1" />
+        <!--<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+	    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'> -->
+
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+
+        <!-- Bootstrap CSS -->
+        <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css"> -->
+        <!--<link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css" /> -->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    </head>
+    <body>
+        <!-- Trailer Video Modal -->
+        <div class="modal" id="trailer">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true" >
+                        <img src="images/close_icon.png"/>
+                    </a>
+                    <div class="scale-media" id="trailer-video-container"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Main Page Content -->
+            <div class="tiles_container" id="movie-tile-area">
+
+                <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="5PSNL1qE6VY" data-toggle="modal" data-target="#trailer">
+                    <img src="images/Avatar_poster.jpg" width="220" height="342">
+                    <h3>Avatar</h3>
+                    <h4>R<span> | </span>Sci-Fi</h4>
+                    <div id="storyline">
+                        <div><h3>Avatar</h3></div>
+                        <div>In 2154, Earth has depleted it's natural resources.                           Intergalatic travel allows humans to mine another plant,                       Pandora, inhabited by the Na'vi. Scientists explore                            Pandora's biosphere using Na'vi-human hybrids called                           "avatars". A paraplegic former Marine Jake Sully                             replaces his deceased identical twin brother as an avatar                      operator. Conflict grows between Jake and the outpost's                        military security force.</div>
+                        <hr/>
+                        <div>108 min<span>  |  </span>Release Date: 12 December 2009</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="6GaPkMqAS44" data-toggle="modal" data-target="#trailer">
+                    <img src="images/Bad_Boys.jpg" width="220" height="342">
+                    <h3>Bad Boys</h3>
+                    <h4>R<span> | </span>Action</h4>
+                    <div id="storyline">
+                        <div><h3>Bad Boys</h3></div>
+                        <div>One hundred million worth of confiscated heroin is                            stolen from the police department. Once the career bust                        of Detective Mike Lowery (Will Smith) and Marcus Burnett                       (Martin Lawrence), the missing drugs threaten to shut                          down the Maimi Police Dept. The investigation turns                            deadly, the murderers kidnap the only witness, a                               beautiful artist (Tea Leoni) and close friend to the                           Boys.</div>
+                        <hr/>
+                        <div>119 min<span>  |  </span>Release Date: 7 April 1995</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="LCrDo3eCXkw" data-toggle="modal" data-target="#trailer">
+                    <img src="images/Chronicles_of_riddick_ver2.jpg" width="220" height="342">
+                    <h3>Chronicles of Riddick</h3>
+                    <h4>R<span> | </span>Comics</h4>
+                    <div id="storyline">
+                        <div><h3>Chronicles of Riddick</h3></div>
+                        <div>After years of outrunning ruthless bounty                                     hunters, escaped convict Riddick (Vin Diesel)                                  suddenly finds himself caught between                                          opposing forces in a fight for the future of                                   the human race. The reluctant hero will                                        emerge as the last hope for a universe on the                                  edge of annihilation.</div>
+                        <hr/>
+                        <div>119 min<span>  |  </span>Release Date: 3 June 2004</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="QWBKEmWWL38" data-toggle="modal" data-target="#trailer">
+                    <img src="images/Jurassic_Park_poster.jpg" width="220" height="342">
+                    <h3>Jurassic Park</h3>
+                    <h4>PG-13<span> | </span>Action</h4>
+                    <div id="storyline">
+                        <div><h3>Jurassic Park</h3></div>
+                        <div>The adventure begins on a remote island where a                             unique and amazing theme park promises a thrill                              ride. A scientist's incredible DNA breakthrough                              allows dinosaurs to come to life. Instead of fun,                            things turn deadly.</div>
+                        <hr/>
+                        <div>127 min<span>  |  </span>Release Date: 9 June 1993</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="vKQi3bBA1y8" data-toggle="modal" data-target="#trailer">
+                    <img src="images/The_Matrix_Poster.jpg" width="220" height="342">
+                    <h3>The Matrix</h3>
+                    <h4>R<span> | </span>Sci-Fi</h4>
+                    <div id="storyline">
+                        <div><h3>The Matrix</h3></div>
+                        <div>Thomas Anderson (Keanu Reeves) is a computer programmer                       living a double life under the hacker alias "Neo". He                        believes something is wrong with the world. He encounters                      the phrase "The Matrix" and is contacted by some                             mysterious people who offer to explain it to him.                              Discovery of the Matrix leads to Neo questioning what is                       real.</div>
+                        <hr/>
+                        <div>136 min<span>  |  </span>Release Date: 31 March 1999</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="3PM1pvOzn_w" data-toggle="modal" data-target="#trailer">
+                    <img src="images/Startrekposter.jpg" width="220" height="342">
+                    <h3>Star Trek (2009)</h3>
+                    <h4>PG-13<span> | </span>Sci-Fi</h4>
+                    <div id="storyline">
+                        <div><h3>Star Trek (2009)</h3></div>
+                        <div>Space the new frontier. When the Romulan Nero comes                          from the future to take revenge on the Federation,                            rivals Kirk and Spock must work together to stop him                          from destroyiing everything they know. On a thrilling                         journey filled with action, the new recruits of the                           U.S.S Enterprise will voyage through unimaginable                             danger.</div>
+                        <hr/>
+                        <div>127 min<span>  |  </span>Release Date: 8 May 2009</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="kA9vtXbbhVs" data-toggle="modal" data-target="#trailer">
+                    <img src="images/Hellboy_poster.jpg" width="220" height="342">
+                    <h3>Hellboy</h3>
+                    <h4>PG-13<span> | </span>Comics</h4>
+                    <div id="storyline">
+                        <div><h3>Hellboy</h3></div>
+                        <div>Supernatural hero fights to keep the world safe from                         paranormal threats. As dark forces gather to hasten the                       Apocalypse, Hellboy fights fire with fire with this                           mind-blasting, supernatural action-adventure.</div>
+                        <hr/>
+                        <div>122 min<span>  |  </span>Release Date: 2 April 2004</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="MqT-e44kIM8" data-toggle="modal" data-target="#trailer">
+                    <img src="images/Underworld_2003_film_poster.jpg" width="220" height="342">
+                    <h3>Underworld</h3>
+                    <h4>R<span> | </span>Action</h4>
+                    <div id="storyline">
+                        <div><h3>Underworld</h3></div>
+                        <div>In the Underworld, Vampires are a secret clan whose                           mortal enemies are the Lycans (Werewolves). No one                             knows the origins of their bitter blood feud. The                              battle becomes bloodier when a beautiful young Vampire                         warrior and newly-turned Lycan with a mysterious past                          fall in love.</div>
+                        <hr/>
+                        <div>121 min<span>  |  </span>Release Date: 19 Sept 2003</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="T6DJcgm3wNY" data-toggle="modal" data-target="#trailer">
+                    <img src="images/ManofSteelFinalPoster.jpg" width="220" height="342">
+                    <h3>Man of Steel</h3>
+                    <h4>PG-13<span> | </span>Comics</h4>
+                    <div id="storyline">
+                        <div><h3>Man of Steel</h3></div>
+                        <div>A young man learns that he has extraordinary powers                           and is not of this Earth. He journeys to discover                              where he came from and what he was sent here to do.                            But the hero in him must emerge if he is to save                               the world from annihilation and become the symbol                              of hope for all mankind.</div>
+                        <hr/>
+                        <div>143 min<span>  |  </span>Release Date: 14 June 2013</div>
+                    </div>
+                </div>
+
+            </div> <!-- end of .tiles_container -->
+        </div> <!-- end of .container -->
+
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+        <!--
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+
+        <script src="js/main.js" type="text/javascript"></script>
+    </body>
+</html>
